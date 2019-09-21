@@ -1,5 +1,7 @@
 # vagrant-ansible-sandbox
 
+**Built for windows PC sandbox**
+
 **This should leave you with 1 ansible server, two centos boxes and two windows boxes ready for playbooks and adhoc commands**
 
 **Install latest VirtualBox**
