@@ -1,11 +1,23 @@
 # vagrant-ansible-sandbox
 
-Install VirtualBox
+**Install latest git for Windows**
 
-Install Vagrant
+https://git-scm.com/download/win
 
-clone repo
+**Install latest Vagrant**
 
-cd into repo
+https://www.vagrantup.com/downloads.html
+
+**clone repo and bring up sandbox**
+
+git clone https://github.com/mccbryan3/vagrant-ansible-sandbox.git
+
+cd vagrant-ansible-sandbox
 
 vagrant up
+
+vagrant ssh ansible
+
+ansible lin -m ping
+
+ansible win -m win_ping
