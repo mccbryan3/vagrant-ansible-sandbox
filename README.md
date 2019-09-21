@@ -1,5 +1,9 @@
 # vagrant-ansible-sandbox
 
+**Install latest VirtualBox**
+
+https://www.virtualbox.org/wiki/Downloads
+
 **Install latest git for Windows**
 
 https://git-scm.com/download/win
