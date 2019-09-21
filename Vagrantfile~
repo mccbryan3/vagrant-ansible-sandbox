@@ -27,7 +27,7 @@ pip install pywinrm
 echo "[win]\n192.168.0.101\n192.168.0.102\n\n" >> /etc/ansible/hosts
 echo "[lin]\n192.168.0.11\n192.168.0.12\n192.168.0.200\n\n" >> /etc/ansible/hosts
 sed -i 's/PasswordAuthentication no/PasswordAuthentication yes/g' /etc/ssh/sshd_config
-sed -i 's/#host_key_checking = False/host_key_checking = False/g' /etc/ansible/ansible.cfg
+sed -i 's/PasswordAuthentication no/PasswordAuthentication yes/g' /etc/ssh/sshd_config
 cd .ssh
 yes id_rsa |ssh-keygen -q -t rsa -N '' >/dev/null
 chown vagrant:vagrant id_rsa id_rsa.pub
