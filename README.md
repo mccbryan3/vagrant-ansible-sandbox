@@ -38,6 +38,9 @@ https://www.vagrantup.com/downloads.html
 
 <h3>Environment Information</h3>
 
+
+    default inventory file is used with groups [lin] and [win] for the respective platforms
+
     vm: ansible1
     - ip_adress = 192.168.0.200  
     vm: cent1
