@@ -31,3 +31,17 @@ ansible lin -m ping
 ansible win -m win_ping
 
 **Feel free to change the vagrant boxes that are used but do so at your own risk**
+
+<h3>Environment Information</h3>
+
+    vm: ansible
+    - ip_adress = 192.168.0.200  
+    vm: cent1
+    - ip_adress = 192.168.0.11
+    vm: cent2
+    - ip_adress = 192.168.0.12
+    vm: win1
+    - ip_adress=192.168.0.101
+    vm: win2
+    - ip_adress=192.168.0.102
+    
