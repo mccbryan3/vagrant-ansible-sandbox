@@ -16,7 +16,7 @@ https://git-scm.com/download/win
 
 https://www.vagrantup.com/downloads.html
 
-**clone repo and bring up sandbox**
+**Clone repo and bring up sandbox**
 
     git clone https://github.com/mccbryan3/vagrant-ansible-sandbox.git
 
@@ -24,11 +24,11 @@ https://www.vagrantup.com/downloads.html
 
     vagrant up
 
-**SSH into the ansible server
+**SSH into the ansible server**
 
     vagrant ssh ansible
 
-**Run some adhoc commands against the groups
+**Run some adhoc commands against the groups**
 
     ansible lin -m ping
 
