@@ -41,9 +41,9 @@ echo $(sshpass -p vagrant ssh -oStrictHostKeyChecking=no vagrant@192.168.0.200 '
 SCRIPT
 
 Vagrant.configure("2") do |config|
-  config.vm.define "ansible" do |subconfig|
+  config.vm.define "ansible1" do |subconfig|
     subconfig.vm.box = LIN_BOX_IMAGE
-    subconfig.vm.hostname = "ansible"
+    subconfig.vm.hostname = "ansible1"
     subconfig.vm.network :private_network, ip: "192.168.0.200"
     subconfig.vm.provision "shell", inline: $master
     subconfig.vm.provision "shell", inline: $node
