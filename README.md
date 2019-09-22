@@ -26,7 +26,7 @@ https://www.vagrantup.com/downloads.html
 
 **SSH into the ansible server**
 
-    vagrant ssh ansible
+    vagrant ssh ansible1
 
 **Run some adhoc commands against the groups**
 
@@ -38,7 +38,7 @@ https://www.vagrantup.com/downloads.html
 
 <h3>Environment Information</h3>
 
-    vm: ansible
+    vm: ansible1
     - ip_adress = 192.168.0.200  
     vm: cent1
     - ip_adress = 192.168.0.11
@@ -48,4 +48,5 @@ https://www.vagrantup.com/downloads.html
     - ip_adress=192.168.0.101
     vm: win2
     - ip_adress=192.168.0.102
-    
+  
+**No internall name resolution at the moment**
