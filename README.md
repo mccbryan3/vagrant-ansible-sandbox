@@ -52,4 +52,4 @@ https://www.vagrantup.com/downloads.html
     vm: win2
     - ip_adress=192.168.0.102
   
-**No internall name resolution at the moment**
+**No internal name resolution at the moment**
