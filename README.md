@@ -24,7 +24,11 @@ https://www.vagrantup.com/downloads.html
 
     vagrant up
 
+**SSH into the ansible server
+
     vagrant ssh ansible
+
+**Run some adhoc commands against the groups
 
     ansible lin -m ping
 
