@@ -1,7 +1,7 @@
 LIN_BOX_IMAGE = "generic/centos7"
-LIN_NODE_COUNT = 2
+LIN_NODE_COUNT = 1
 WIN_BOX_IMAGE = "StefanScherer/windows_2019"
-WIN_NODE_COUNT = 2
+WIN_NODE_COUNT = 1
 
 $posh = <<-SCRIPT
 Get-NetFirewallRule FPS-ICMP4-ERQ-In | Enable-NetFirewallRule
